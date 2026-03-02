@@ -4,7 +4,6 @@
 
 int main() {
   ResourceCache cache;
-    
   {
     auto a1 = cache.get("asset1");
     auto a2 = cache.get("asset1");
@@ -35,3 +34,4 @@ int main() {
   std::cout << "Done.\n";
   return 0;
 }
+
